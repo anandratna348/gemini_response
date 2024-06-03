@@ -6,9 +6,8 @@ import os
 # Function to call Gemini API (replace with your actual Gemini API details)
 def call_gemini_api(user_input):
     # This is a placeholder URL and headers for the Gemini API
-    url = "https://api.gemini.com/v1/some-endpoint"
+    url = "POST https://us-central1-aiplatform.googleapis.com/v1/projects/AIzaSyC16uwNQRBJej5J34QKk8v_8u_QCu2V-4k/locations/us-central1/publishers/google/models/gemini-1.0-pro:streamGenerateContent?alt=sse"
     headers = {
-        "Authorization": "AIzaSyC16uwNQRBJej5J34QKk8v_8u_QCu2V-4k",
         "Content-Type": "application/json"
     }
     data = {
